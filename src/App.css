@@ -1,0 +1,51 @@
+.minNav{
+    background: black;
+    padding: 37px;
+    position: fixed;
+}
+.list_item li a{
+  margin: 2px 8px;
+  padding: 5px 20px;
+  list-style: none;
+  background-color: orange;
+  color: aliceblue;
+  border-radius: 20px;
+
+
+}
+.list_item li a:hover{
+  margin: 2px 8px;
+  padding: 5px 20px;
+  list-style: none;
+  background-color: white;
+  color: orangered;
+  border: 1px solid orange;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px #ccc;
+
+}
+.list_item li{
+ 
+  list-style: none;
+ 
+
+}
+.bannerImage{
+  background-image: url(./assets/react.svg);
+  background-position:100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  background: url(https://rubixe.com/assets/img/home/main.jpg) 50% 50% no-repeat;
+}
+
+
+.mainCardTop,.cardSubtop{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.vertiLine{
+  width: 1px;
+  height: 400px;
+  background-color: #ccc;
+}
